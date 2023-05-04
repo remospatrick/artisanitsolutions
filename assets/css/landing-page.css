@@ -1040,7 +1040,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 
 .landing-page .section-presentation .descriptionright{
-  padding: 5px 50px 0;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 0px;
+  padding-left: 80px;
 }
 
 .landing-page .parallax .description h2{
@@ -1700,4 +1703,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     .landing-page .navbar-top{
         padding-top: 10px;
     }
+}
+
+@media (max-width: 767px) {
+  .descriptionright {
+    padding-left: 0px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .descriptionright {
+    padding-left: 0px !important;
+  }
 }
