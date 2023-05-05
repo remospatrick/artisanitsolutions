@@ -1699,6 +1699,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   }
 }
 
+.navbar{
+  transition: all 0.5s;
+}
+
+.navbar-scrolled{
+  background-color: black;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
 @media (min-width: 768px){
     .landing-page .navbar-top{
         padding-top: 10px;
