@@ -1035,6 +1035,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   padding: 5px;
 }
 
+.landing-page .parallax .h1description{
+  margin-top: 150px;
+  color: white;
+  padding: 5px;
+}
+
 .landing-page .section-presentation .description{
   padding: 50px 5px 0;
 }
